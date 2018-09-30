@@ -16,12 +16,9 @@
     <!-- Custom styles for this template -->
     <link href="css/portfolio-item.css" rel="stylesheet">
 
-	<script>
-		var vid = document.getElementById("video");
-		vid.playbackRate = 9.0;
-	</script>
+	
 	<style>
-		
+
 	</style>
   </head>
 
@@ -56,14 +53,16 @@
       <div class="row">
 
         <div class="col-md-8">
-        	<video width="700" id="video" controls autoplay muted>
-    			<source src="img/ucbrainstorm1.mov" type="video/mp4">
+        	<h1 class="my-4">
+        		<small>Signing in, creating activities list, and brainstorming with an activity</small>
+      		</h1> 
+        	<video  id="firstvideo" width="720" id="firstvideo" controls autoplay muted>
+    			<source src="img/ucbrainfinalp1.mov" type="video/mp4">
 			</video>
         </div>
-
         <div class="col-md-4">
-          <h3 class="my-3">UCBrainstorm</h3>
-          <p>UCBrainstorm is a web application that helps users brainstorm answers to the UC Application's short answer questions. The application allows user to develop an awards and activities list through a form. It then prompts user to decide which awards and activities are suitable to include in responses to each of the eight questions. The application generates a table with each of the activities and awards along with the question they best answer and an explanation as to why that is the question they best answer.
+          <h3 class="my-3">UC Brainstorm</h3>
+          <p>UC Brainstorm is a web application that helps users brainstorm answers to the UC Application's short answer questions. The application allows user to develop an awards and activities list through a form. It then prompts user to decide which awards and activities are suitable to include in responses to each of the eight UC short-answer questions. The application generates a table with each of the activities and awards along with the question they best answer and an explanation as to why that is the question they best answer.
 </p>
           <h3 class="my-3">Built Using:</h3>
           <ul>
@@ -76,6 +75,35 @@
         </div>
 
       </div>
+        <div class="col-md-8">
+        	<h1 class="my-4">
+        		<small>Brainstorming with more activities</small>
+      		</h1> 
+        	<video id = "secondvideo" width="720" controls autoplay muted>
+    			<source src="img/ucbrainfinalp2.mov" type="video/mp4">
+			</video>
+        </div>
+
+      
+        <div class="col-md-8">
+        	<h1 class="my-4">
+        		<small>Looking at brainstorm history</small>
+      		</h1> 
+        	<video id = "secondvideo" width="720" controls autoplay muted>
+    			<source src="img/ucbrainfinalp2history.mov" type="video/mp4">
+			</video>
+        </div>
+      </div>
+
+      
+      <script>
+		var vid = document.getElementById("firstvideo");
+		vid.playbackRate = 2.0;
+		var vid2 = document.getElementById("secondvideo");
+		vid2.playbackRate = 2.0;
+		var vid3 = document.getElementById("thirdvideo");
+		vid3.playbackRate = 2.0;
+	</script>
       <!-- /.row -->
 
       <!-- Related Projects Row -->
@@ -116,7 +144,6 @@
     <!-- Footer -->
     <footer class="py-5 bg-dark">
       <div class="container">
-        <p class="m-0 text-center text-white">Nikhita Shanker</p>
       </div>
       <!-- /.container -->
     </footer>
